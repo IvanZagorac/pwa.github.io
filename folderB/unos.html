@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link   rel="stylesheet" type="text/css" href="../style.css">
+      <link rel="stylesheet"  href="../bootstrap-5.0.1-dist/css/bootstrap.min.css">
+      <script type="text/javascript" src="../js/jquery-3.6.0.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+   <script src="../js/form-validation.js"></script> 
+    <title>Unos</title>
+</head>
+<body>
+
+<main class="main">
+<div class="row">
+<header><h1>Unos</h1>
+</div>
+<div class="row">
+<nav id="navigacija" class="col-lg-12">
+<ul><li><a href="../index.php">Home</a></li>
+    <li><a href="../kategorije.php?kategorija=sport">Sport</a></li>
+    <li><a href="../kategorije.php?kategorija=hrana">Food</a></li>
+    <li><a href="../login.html">Administracija</a></li>
+    <li><a href="unos.html">Unos vijesti</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<section class="omotacForme">
+    <form  enctype="multipart/form-data" action="insert.php" name="prijava"  method="post">
+        <label for="naslov">Unesi naslov vijesti:</label><br/>
+        <input type="text" id="naslov" name="naslov"><br/>
+        <span id="porukaTitle"></span><br/>
+        <label for="kratki_sadrzaj">Unesi kratki sadržaj:</label><br/>
+        <input type="text" id="kratki_sadrzaj" name="kratki_sadrzaj"> <br/>
+        <span id="porukaAbout"></span><br/>
+        <label for="sadrzaj">Unesi sadržaj:</label><br/>
+        <input type="text" id="sadrzaj" name="sadrzaj"><br/>
+        <span id="porukaContent"></span><br/>
+        <label for="kat">Kategorija vijesti:</label>
+        <select  name="kategorija" id="kat">
+            <option value="sport">Sport</option>
+            <option value="hrana">Hrana</option>
+        </select><br/>
+        <span id="porukaKategorija"></span><br/>
+        <label for="slika">Odaberi sliku:</label><br/>
+        <input type="file" name="slika" id="slika"><br>
+        <span id="porukaSlika"></span><br/>
+        <label for="odabir">Želite li prikazivati obavijest na stranici</label><br/>
+        <input type="checkbox" name="odabir" value="nesto"><br>
+
+        <input id="gumb1" type="submit" name="submit" value="Poslati">
+
+
+    </form>
+
+    <script src="../script.js"></script>
+</section>
+
+
+
+ 
+<div class="row">
+<footer class="footer">
+        <div class="col-lg-12">
+        <h3>Ivan Zagorac</h3><br/>
+        </div>
+        <div class="col-lg-12">
+        <h3>ivan.zagorac18@gmail.com</h3><br/>
+        </div>
+        <div class="col-lg-12">
+        <h3>2022</h3><br/>
+        </div>
+
+
+</footer>
+</div>
+
+
+</main>
+
+
+</body>
+</html>

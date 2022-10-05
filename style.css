@@ -1,0 +1,154 @@
+html{
+	padding:10px;
+    margin:0auto;
+    font-family:Arial,"Times New Roman",sans-serif;
+    font-size: 14px;
+}
+
+
+header{
+	width: 100%;
+	background-color: darkblue;
+	color: white;
+	padding: 10px;
+	
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#navigacija{
+	width: 100%;
+	background-color: royalblue;
+}
+#navigacija a{
+	display: block;
+	color: white;
+	text-transform: uppercase;
+	padding: 5px;
+	text-decoration: none;
+
+}
+
+#navigacija ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navigacija li{
+	float: left;
+	width: 20%;
+}
+
+.footer{
+	width: 100%;
+	background-color: darkblue;
+}
+
+.footer h3{
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#prviS img{
+	max-width: 100%;
+}
+
+.p{
+	text-align: center;
+	vertical-align: bottom;
+}
+
+#food img{
+	max-width: 100%;
+}
+
+.omotacForme{
+	width: 100%;
+	text-align: center;
+	background-color: lightgray;
+	color: green;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 18px;
+}
+
+#naslov,#kratki_sadrzaj,#sadrzaj,#kategorija{
+	width: 45%;
+}
+form{
+	line-height: 3;
+}
+#gumb1{
+	padding: 5px;
+	width: 20%;
+}
+
+.slika2 img{
+	width: 50%;
+}
+#cont{
+	width: 100%;
+	text-align: center;
+}
+.datum{
+	text-align: left;
+}
+
+.sport{
+	width: 100%;
+	float: left;
+	line-height: 3;
+}
+.hrana{
+	width: 100%;
+	float: left;
+}
+
+#arhiva{
+	padding: 5px;
+}
+
+#omotacVijesti{
+	font-size: 18px;
+	background-color: lightgreen;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
+	text-align: center;
+
+}
+
+#omotacVijesti img {
+width: 80%;
+}
+
+#reference{
+	text-decoration: none;
+	font-size: 32px;
+	color: royalblue;
+
+}
+
+.gumbovi{
+	padding: 20px;
+	margin-right: 25px;
+}
+
+.sazetakV, .datumV{
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+.hc {
+	
+}
+
+.about {
+	
+}
